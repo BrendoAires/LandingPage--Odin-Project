@@ -30,7 +30,7 @@ body{
     margin: 0 auto;
 }
 img{
-      width:30%;
+      width:40%;
 }
 header{
     background: var(--clr-1);
@@ -65,10 +65,13 @@ nav a:hover{
     transition: all 0.4s linear;
 }
 li{
-    
+
     display: inline;
+
+    
     
 }
+
 ul li{
     margin: 0 10px 0 10px;
     font-size: var(--fs-18);
@@ -126,6 +129,18 @@ main{
     margin: 20px;
     text-align: center;
 
+}
+.img1{
+    
+}
+.img2{
+    
+}
+.img3{
+    src: url(/img/capa.jpg);
+}
+.img4{
+    src: url(/img/capa.jpg);
 }
 .ex1, .ex2, .ex3, .ex4{
     span{

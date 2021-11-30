@@ -37,7 +37,7 @@ body {
 }
 
 img {
-  width: 30%;
+  width: 40%;
 }
 
 header {
@@ -152,6 +152,14 @@ main {
   border-radius: 10px;
   margin: 20px;
   text-align: center;
+}
+
+.img3 {
+  src: url(/img/capa.jpg);
+}
+
+.img4 {
+  src: url(/img/capa.jpg);
 }
 
 .ex1 span, .ex2 span, .ex3 span, .ex4 span {
