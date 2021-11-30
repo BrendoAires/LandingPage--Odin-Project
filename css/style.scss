@@ -128,13 +128,19 @@ main{
     background-size: cover;
     border-radius: 10px;
     margin: 20px;
-    
+    opacity: 0.5;
     text-align: center;
 
-    :hover{
-        transform: scale(2);
-    }
+    
 
+}
+.img1:hover, .img2:hover, .img3:hover, .img4:hover{
+        box-shadow: black 1px ;
+        transform: scale(1.2);
+        border: none;
+        opacity:1;
+        transition: .6s ease-out;
+    
 }
 
 .img1{
