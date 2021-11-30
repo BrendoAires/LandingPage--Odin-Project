@@ -156,7 +156,8 @@ main {
 }
 
 .img1 :hover, .img2 :hover, .img3 :hover, .img4 :hover {
-  zoom: 150%;
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 .img1 {

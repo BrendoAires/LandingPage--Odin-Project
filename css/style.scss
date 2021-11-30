@@ -128,15 +128,18 @@ main{
     background-size: cover;
     border-radius: 10px;
     margin: 20px;
+    
     text-align: center;
 
     :hover{
-        zoom: 150%;
+        transform: scale(2);
     }
 
 }
+
 .img1{
     background-image: url("/img/sala.jpg");
+    
 }
 .img2{
     background-image: url("/img/cozinha.jpg");
