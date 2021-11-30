@@ -390,20 +390,25 @@ footer {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     height: 100vh;
     max-width: 100%;
-    border: 1px solid red;
   }
   .ex {
-    margin: 0;
+    margin-right: 0;
     width: 45%;
     padding: 0;
   }
+  .ex span {
+    border: 1px solid red;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+  }
   .ex .img1, .ex .img2, .ex .img3, .ex .img4 {
-    margin: 0 0 10px 0;
+    margin: 0;
     width: 200px;
   }
   .ex .img1:hover, .ex .img2:hover, .ex .img3:hover, .ex .img4:hover {
@@ -411,6 +416,7 @@ footer {
             transform: rotate(10deg);
     -webkit-transition: .3s;
     transition: .3s;
+    margin-right: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

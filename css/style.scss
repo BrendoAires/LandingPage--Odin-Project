@@ -323,26 +323,32 @@ footer{
     .um{
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
         height: 100vh;
         max-width: 100%;
-        border: 1px solid red;
+        
+        
     }
     .ex{
-        margin: 0;
+        margin-right: 0;
         
         width: 45%;
         padding: 0;
        
-
+        span{
+            border: 1px solid red;
+            justify-content: center;
+            margin: 0;
+        }
         .img1, .img2, .img3, .img4{
-            margin: 0 0 10px 0;
+            margin: 0;
             width: 200px;
 
         }
         .img1:hover, .img2:hover, .img3:hover, .img4:hover{
             transform: rotate(10deg);
             transition: .3s;
+            margin-right: 0;
         }
     }
 }
