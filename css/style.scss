@@ -99,6 +99,7 @@ ul li{
 }
 .titulo{
    width: 40%;
+   flex-direction: column;
 }
 .titulo h1, h4{
     margin-bottom: 4px;
@@ -263,4 +264,85 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: .9em;
+}
+
+@media(max-width:500px){
+    
+    .nav-brand{
+        h3{
+            font-size: 26px;
+        }
+    }
+    .nav-menu li{
+        font-size: 14px;
+    }
+    header{
+        width: 100%;
+        height: 60vh;
+    }
+    .header-main{
+        flex-direction: column;
+        width:100%;
+
+        .titulo{
+            width: 100%;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            h1{
+                margin-bottom: 5px;
+                font-size: 22px;
+                font-weight: 500;
+                
+            }
+            h4{
+                margin-bottom: 5px;
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+        h1{ 
+            font-size: 20px;
+            margin: 0 auto;
+        }
+        img{
+            width: 100%;
+        }
+    }
+
+    .um{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .container{
+        margin:0;
+        width: 100%;
+    }
+    .um{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 100vh;
+        max-width: 100%;
+        border: 1px solid red;
+    }
+    .ex{
+        margin: 0;
+        
+        width: 45%;
+        padding: 0;
+       
+
+        .img1, .img2, .img3, .img4{
+            margin: 0 0 10px 0;
+            width: 200px;
+
+        }
+        .img1:hover, .img2:hover, .img3:hover, .img4:hover{
+            transform: rotate(10deg);
+            transition: .3s;
+        }
+    }
 }
