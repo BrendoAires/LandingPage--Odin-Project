@@ -344,6 +344,7 @@ footer{
         .img1, .img2, .img3, .img4{
             margin: 0 auto;
             width: 100%;
+            height: calc(100vh / 4);
             padding: 0;
             transition: .5s; 
             border: none;
@@ -360,7 +361,7 @@ footer{
         }
     }
     .dois{
-        margin-top: 70vh;
+        margin-top: 50vh;
         height: 30vh;
         border: 1px solid red;
         

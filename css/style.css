@@ -406,6 +406,7 @@ footer {
   .ex .img1, .ex .img2, .ex .img3, .ex .img4 {
     margin: 0 auto;
     width: 100%;
+    height: calc(100vh / 4);
     padding: 0;
     -webkit-transition: .5s;
     transition: .5s;
@@ -421,7 +422,7 @@ footer {
     opacity: 1;
   }
   .dois {
-    margin-top: 70vh;
+    margin-top: 50vh;
     height: 30vh;
     border: 1px solid red;
   }
