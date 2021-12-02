@@ -124,7 +124,7 @@ main{
 
     h3{
         color: var(--clr-1);
-        font-size: var(--fs-24);
+        font-size: var(--fs-36);
     }
     
 }
@@ -273,6 +273,13 @@ footer{
 }
 
 @media(max-width:500px){
+
+    main{
+        h3{
+            
+            font-size: var(--fs-24);
+        }
+    }
     
     .nav-brand{
         h3{
