@@ -323,7 +323,7 @@ footer{
         min-height: 100vh;
         max-width: 100%;
         margin: 0;
-        
+        margin-bottom: 5px;
         
         
         
@@ -336,8 +336,8 @@ footer{
         
        
         span{
-            display: block;
-            
+            height: 0;
+            display: none;
             justify-content: center;
             margin: 0;
         }
@@ -346,14 +346,32 @@ footer{
             width: 100%;
             padding: 0;
             transition: .5s; 
-            border-radius: 0;     
+            border: none;
+            border-radius: 0;   
+            opacity: .7;  
         }
     
         .img1:hover, .img2:hover, .img3:hover, .img4:hover{
-            transform: scale(1, 1.5);
-        background-size: cover;
-        background-repeat: no-repeat;
-       
+            transform: scale(1);
+            box-shadow: none;
+            
+            opacity: 1;
+            
+        }
+    }
+    .dois{
+        margin-top: 70vh;
+        height: 30vh;
+        border: 1px solid red;
+        
+        .container{
+            
+            width: 100%;
+        }
+
+        h1{
+            padding: 0 2px 0 2px;
+            font-size: var(--fs-14);
         }
     }
 }

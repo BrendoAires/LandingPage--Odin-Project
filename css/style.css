@@ -384,6 +384,7 @@ footer {
     min-height: 100vh;
     max-width: 100%;
     margin: 0;
+    margin-bottom: 5px;
   }
   .ex {
     margin: 0;
@@ -395,7 +396,8 @@ footer {
     padding: 0;
   }
   .ex span {
-    display: block;
+    height: 0;
+    display: none;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -407,13 +409,28 @@ footer {
     padding: 0;
     -webkit-transition: .5s;
     transition: .5s;
+    border: none;
     border-radius: 0;
+    opacity: .7;
   }
   .ex .img1:hover, .ex .img2:hover, .ex .img3:hover, .ex .img4:hover {
-    -webkit-transform: scale(1, 1.5);
-            transform: scale(1, 1.5);
-    background-size: cover;
-    background-repeat: no-repeat;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    opacity: 1;
+  }
+  .dois {
+    margin-top: 70vh;
+    height: 30vh;
+    border: 1px solid red;
+  }
+  .dois .container {
+    width: 100%;
+  }
+  .dois h1 {
+    padding: 0 2px 0 2px;
+    font-size: var(--fs-14);
   }
 }
 /*# sourceMappingURL=style.css.map */
